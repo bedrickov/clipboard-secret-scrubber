@@ -1,0 +1,13 @@
+[package]
+name = "clipboard-secret-scrubber"
+version = "0.1.0"
+edition = "2021"
+description = "Real-time Windows clipboard cleaner that strips API tokens, private keys and secrets"
+
+[dependencies]
+regex = "1.10"
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_System_DataExchange",
+    "Win32_System_Memory"
+] }
