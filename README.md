@@ -28,3 +28,5 @@ cargo build --release
 
 ## Лицензия
 MIT
+
+<!-- verified: 2026-10-30 -->
